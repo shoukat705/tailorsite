@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: url("frantpage.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 85vh;
+
+    
+}
+
+.logo{
+    color: burlywood;
+    font-size: 30px;
+    line-height: 55px;
+    padding:  0 70px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* background-color: black; */
+    /* position: fixed; */
+    width: 100%;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    margin-right: 70px;
+
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+   
+}
+.home .line a{
+    color: burlywood;
+    text-decoration: underline 2px ;
+}
+/* nav{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+.home a{
+    text-decoration: line-through;
+}
+nav ul{
+    float: right;
+    margin-right: 35px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    font-size: 20px;
+    color: burlywood;
+}
+nav ul li a{
+    color: burlywood;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+} */
+
+a:hover{
+    text-decoration:underline 2px ;
+    /* border-radius: 3px solid black; */
+    
+}
+.hedding{
+    color: burlywood;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+.hedding h1{
+    font-size: 100px;
+    padding-top: 30px;
+}
+.inputbtn{
+    padding-top: 60px;
+    padding-left: 3px;
+}
+.inputbtn input {
+    color: white;
+    background: none;
+    width: 260px;
+    height: 55px;
+    border-radius: 2px;
+    border: 1px solid burlywood;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.inputbtn input:hover{
+    border-radius: 2px;
+    border: 1px solid white;
+}
+.para{
+    /* border: 2px solid black; */
+    border-bottom: 3.5px solid burlywood ;
+    border-left: 2px solid burlywood;
+    border-right: 2px solid burlywood;
+    border-top: 1px solid burlywood;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    /* background-color: rgb(2, 19, 12); */
+   display: flex;
+   height: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   /* padding-bottom: 50px; */
+
+  
+   
+}
+.para_hedding{
+    width: 350px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 25px;
+    
+    /* justify-content: center; */
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.para_hedding p{
+    padding-bottom: 30px;
+    color: rgb(173, 127, 67);
+}
+.paragrap{
+    /* background-color: red; */
+    padding-top: 120px;
+    padding-right: 100px;
+    justify-content: left;
+    width: 710px;
+    font-size: 25px;
+    /* padding-top: 200px; */
+}
+
+.pictuer{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding-top: 50px;
+ padding-bottom: 30px;
+ gap: 50px;
+
+}
+.pictuer p{
+    justify-content: center;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#btn button{
+    color: rgb(75, 69, 69);
+    background: none;
+    width: 260px;
+    height: 55px;
+    border-radius: 2px;
+    border: 2px solid burlywood;
+    font-size: 17px;
+    text-align: center;
+    
+}
+#btn button:hover{
+    border-radius: 2px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#map {
+    text-align: center;
+    margin: 20px auto; 
+    max-width: 100%
+}
+#map iframe{
+    padding-bottom: 10px;
+    width: 80vw;
+}
+.btm{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(113, 113, 113);
+    /* padding-bottom: 30px; */
+}
+
+.ftr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border: 1px solid burlywood;
+}
+
+
+ 
+/* .border{
+    margin-top: 10px;
+    border-top: 2px solid burlywood;
+    border-right: 4px solid burlywood;
+    border-left: 4px solid burlywood;
+    border-bottom: 4px solid burlywood;
+    padding-top: 20px;
+    /* padding: 2px; */
+/* }
+.about-us{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    width: 100%;
+    height: auto;
+    border: 4px solid greenyellow;
+    overflow: hidden;
+}
+
+.about-div{
+    padding-top: 6rem;
+    border: 2px solid black;
+    align-self: self-start;
+}
+
+.about-para{
+    border: 2px solid red;
+    align-self: flex-end;
+    padding-top: 12rem;
+}
+.about-parDiv{
+    width: 400px;
+}
+.about-h1{
+    font-size: 24px;
+} */
+
+
+/* .checkbtn{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+} */
+
+
+/* 
+responsive
+@media(max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 850px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(36, 38, 38, 0.866);
+        top: 80px;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a:active{
+        background: none;
+        color: 0082e6;
+        
+    }
+}  responsive*/
+
+/* 
+div nav{
+    width: 400px;
+    height: 75px;
+
+    
+} */
+
+ /* ul{
+    display: flex;
+ }
+
+ li{
+    display:flex;
+    color: burlywood;
+    font-size: 20px;
+
+ }
+
+ ul a{
+    text-decoration: none;
+    margin-right: 15px; */
+    
+ /* } 

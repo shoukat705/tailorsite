@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Times, 'Times New Roman', serif;
+}
+header{
+    background-image: url("frt.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.logo{
+    color: burlywood;
+    font-size: 30px;
+    line-height: 55px;
+    padding:  0 70px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    margin-right: 70px;
+
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+   
+}
+.home .line a{
+    color: burlywood;
+    text-decoration: underline 2px ;
+}
+a:hover{
+    text-decoration: underline 2px ;
+}
+.head_nav .suit{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 2.7rem;
+    color: burlywood;
+    height: 25vh;
+    align-items: flex-end;
+}
+.pic_para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 4rem;
+    /* padding-bottom: rem; */
+    
+}
+.hedding_paragrap h2{
+    font-size: 1.5rem;
+    color: rgb(69, 69, 69);
+    padding-bottom: 2rem;
+    
+}
+.hedding_paragrap{
+    width: 36rem;
+    height: auto;
+    font-size: 1.3rem;
+    /* font-family: GraphikCommercial, "Adjusted Arial Fallback", "Adjusted Lucida Grande Fallback", "Helvetica Neue", Helvetica, Verdana, sans-serif; */
+    font-feature-settings: "kern" 1, "liga" 1, "dlig" 1, "calt" 0;
+    color: rgb(126, 125, 125);
+    /* background-color: rgb(234, 231, 231); */
+}
+.btm{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(113, 113, 113);
+    /* padding-bottom: 30px; */
+}
+
+.ftr{
+    margin-top: 3rem;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-top: 1px solid burlywood;
+}
